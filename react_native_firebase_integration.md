@@ -49,11 +49,13 @@ buildscript {
 ```
 
 4. CocoaPods 설치 및 업데이트:
-   ```shell
-   cd ios
-   pod install
-   cd ..
-   ```
+
+```shell
+cd ios
+pod install
+cd ..
+```
+
 5. Xcode에서 Clean Build Folder 후 빌드합니다.
 
 이제 React Native 앱에서 Firebase 기능(인증, 데이터베이스, 스토리지 등)을 사용할 수 있습니다.
